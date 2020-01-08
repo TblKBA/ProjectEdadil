@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/free">
+
+    <fragment
+            android:id="@+id/free"
+            android:name="com.example.projectedadil.ui.breakfast.FreeFragment"
+            android:label="Свободное"
+            tools:layout="@layout/fragment_free"/>
+
+    <fragment
+            android:id="@+id/breakfast"
+            android:name="com.example.projectedadil.ui.breakfast.FreeFragment"
+            android:label="Завтрак"
+            tools:layout="@layout/fragment_breakfast"/>
+
+    <fragment
+            android:id="@+id/lunch"
+            android:name="com.example.projectedadil.ui.breakfast.LunchFragment"
+            android:label="Обед"
+            tools:layout="@layout/fragment_lunch"/>
+
+    <fragment
+            android:id="@+id/reviews"
+            android:name="com.example.projectedadil.ui.breakfast.ReviewsFragment"
+            android:label="Отзывы"
+            tools:layout="@layout/fragment_reviews"/>
+
+    <fragment
+            android:id="@+id/cabinet"
+            android:name="com.example.projectedadil.ui.breakfast.CabinetFragment"
+            android:label="Ещё"
+            tools:layout="@layout/fragment_cabinet"/>
+
+</navigation>
